@@ -1,20 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConvinceYourFriends", "ConvinceYourFriends\ConvinceYourFriends.csproj", "{072B6A1D-9B61-4F83-8E96-576F4AA9DEA8}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{E6489AFA-0BD5-4709-8904-EE19353A6E2D}"
-	ProjectSection(SolutionItems) = preProject
-		PublishScripts\AzureWebsitePublishModule.psm1 = PublishScripts\AzureWebsitePublishModule.psm1
-		PublishScripts\Publish-WebApplicationWebsite.ps1 = PublishScripts\Publish-WebApplicationWebsite.ps1
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{FC1C874F-0084-406F-944D-12C78878EABE}"
-	ProjectSection(SolutionItems) = preProject
-		PublishScripts\Configurations\ConvinceYourFriends-WAWS-dev.json = PublishScripts\Configurations\ConvinceYourFriends-WAWS-dev.json
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,8 +18,5 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{FC1C874F-0084-406F-944D-12C78878EABE} = {E6489AFA-0BD5-4709-8904-EE19353A6E2D}
 	EndGlobalSection
 EndGlobal
