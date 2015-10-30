@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Optimization;
 
-namespace ConvinceYourFriends
+namespace ConvinceYourFriends.Website
 {
     public class BundleConfig
     {
